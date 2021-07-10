@@ -9,4 +9,7 @@ publish = ["metaswitch"]
 [dependencies]
 async-std = { version = "1.9.0", features = ["attributes"] }
 async-udp-stream = { path = "../async-udp-stream" }
+bidirectional-channel = "0.3.1"
+derive_more = "0.99.16"
+evmap = "10.0.2"
 futures = "0.3.15"
